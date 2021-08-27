@@ -113,7 +113,7 @@ class NotesProvider : ContentProvider() {
     companion object {
         const val AUTHORITY = "com.example.contentprovider.provider"
         val BASE_URI = Uri.parse("content://$AUTHORITY")
-        val URI_NOteS = Uri.withAppendedPath(BASE_URI, "notes")
+        val URI_NOTES = Uri.withAppendedPath(BASE_URI, "notes")
 
         const val NOTES = 1
         const val NOTES_BY_ID = 2
